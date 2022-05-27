@@ -22,7 +22,11 @@ const miniMaxSum = arr => {
     sum5
 
     const total = [sum1, sum2, sum3, sum4, sum5]
-    console.log(Math.min(...total), Math.max(...total))
+    // console.log(Math.min(...total), Math.max(...total))
+
+    return [Math.min(...total), Math.max(...total)]
 }
+
+module.exports = miniMaxSum
 
 miniMaxSum(arr)

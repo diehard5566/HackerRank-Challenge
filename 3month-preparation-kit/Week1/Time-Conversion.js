@@ -16,6 +16,7 @@ const timeConversion = s => {
 
     const result = convert.join(':')
     console.log(result)
+    return result
 }
-
+module.exports = timeConversion
 timeConversion(s)

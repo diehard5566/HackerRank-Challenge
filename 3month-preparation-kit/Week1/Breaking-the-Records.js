@@ -26,4 +26,5 @@ const breakingRecords = arr => {
     return [count1, count2]
 }
 
-breakingRecords(scores)
+// breakingRecords(scores)
+module.exports = breakingRecords

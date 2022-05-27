@@ -17,6 +17,6 @@ const divisibleSumPairs = (n, k, ar) => {
     return count
 }
 
-divisibleSumPairs(n, k, ar)
+// divisibleSumPairs(n, k, ar)
 
-console.log(6 % 3)
+module.exports = divisibleSumPairs

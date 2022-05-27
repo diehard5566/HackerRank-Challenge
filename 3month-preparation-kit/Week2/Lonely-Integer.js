@@ -11,4 +11,5 @@ const lonelyInteger = a => {
     }
 }
 
+module.exports = lonelyInteger
 lonelyInteger(a)

@@ -10,3 +10,5 @@ const diagonalDifference = arr => {
     return Math.abs(result)
 }
 console.log(diagonalDifference(arr))
+
+module.exports = diagonalDifference

@@ -67,7 +67,9 @@ const processData = input => {
         if (mcv === 'M') r = s ? r.slice(0, -2) : r + '()'
         if (mcv !== 'C') r = l(r)
         console.log(r)
+        return r
     }
 }
 
-processData(str)
+// processData(str)
+module.exports = processData

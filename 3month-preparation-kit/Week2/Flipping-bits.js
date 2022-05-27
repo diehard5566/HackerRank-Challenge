@@ -9,7 +9,7 @@ const flippingBits = n => {
 
 flippingBits(n)
 
-function flippingBitsStringBased(n) {
+const flippingBitsStringBased = n => {
     // String solution
     const flipped = parseInt(n)
         .toString(2)
@@ -20,3 +20,5 @@ function flippingBitsStringBased(n) {
 
     return parseInt(flipped, 2) // Convert back to decimal
 }
+
+module.exports = flippingBitsStringBased

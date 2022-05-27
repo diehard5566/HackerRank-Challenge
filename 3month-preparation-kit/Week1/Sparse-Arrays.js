@@ -20,4 +20,5 @@ const matchingStrings = (strings, queries) => {
     return result
 }
 
+module.exports = matchingStrings
 matchingStrings(strings, queries)
